@@ -2,6 +2,11 @@
 
 # dependencies
 node_modules/
+# Ignore dependencies and system files
+node_modules/
+.expo/
+.expo-shared/
+
 
 # Expo
 .expo/
