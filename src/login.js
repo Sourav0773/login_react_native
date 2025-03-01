@@ -1,14 +1,13 @@
 import React from "react";
 import { View, Text, StyleSheet, Image } from "react-native";
-import InputFieldDesign from "./src/input_field";
-import { Ionicons } from "@expo/vector-icons";
-import SocialIcons from "./src/social_icons";
+import InputFieldDesign from "./input_field";
+import SocialIcons from "./social_icons";
 
 const Login = () => {
   return (
     <View style={styles.container}>
       <Image
-        source={require("./assets/blue.jpg_preview_rev_1.png")}
+        source={require("../assets/blue.jpg_preview_rev_1.png")}
         style={styles.logo}
       />
 
