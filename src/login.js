@@ -39,8 +39,8 @@ const Login = () => {
       </View>
 
       <Text style={styles.signupText}>
-        Don't have an account?{" "}
-        <Text style={styles.signupLink}>Sign up here</Text>
+        Don't have an account?
+        <Text style={styles.signupLink}> Sign up here</Text>
       </Text>
     </View>
   );
